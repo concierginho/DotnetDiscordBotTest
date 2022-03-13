@@ -9,7 +9,7 @@ using Microsoft.Extensions.Hosting;
 
 namespace DotnetDiscordBotTest
 {
-    public class App
+    public class Application
     {
         public static void Main(string[] args)
         {

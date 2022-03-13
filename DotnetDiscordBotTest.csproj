@@ -6,8 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DotnetDiscordBotBase" Version="1.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="3rd\DotnetDiscordBotBase\DotnetDiscordBotBase.csproj" />
   </ItemGroup>
 
 </Project>
